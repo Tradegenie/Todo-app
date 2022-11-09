@@ -1,0 +1,116 @@
+.App {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.addTask {
+  height: 30vh;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 10px solid black;
+}
+
+.list {
+  height: auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  flex-direction: column;
+}
+
+.task {
+  width: 500px;
+  height: 50px;
+  display: flex;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border: 3px solid black;
+  padding-inline: 20px;
+  gap: 10px;
+}
+
+.task #view {
+  width: 100px;
+  height: 25px;
+  margin-left: auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+.task #complete {
+  width: 100px;
+  height: 25px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  border: none;
+  border-radius: 3px;
+}
+
+.task #delete {
+  width: 50px;
+  height: 30px;
+  text-align: center;
+  color: black;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-weight: 900;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+  
+}
+
+.form button {
+  width: 300px;
+  height: 30px;
+  border-radius: 7px;
+  background-color: black;
+  color: white;
+}
+
+.form .details {
+  background-color: white;
+  border-radius: 5px;
+  width: 300px;
+}
+
+.form .title {
+  height: 25px;
+  border-radius: 5px;
+}
+
+.modal #delete {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  color: black;
+  background-color: red;
+  border: 2px solid black;
+  border-radius: 50%;
+  font-weight: 900;
+}
